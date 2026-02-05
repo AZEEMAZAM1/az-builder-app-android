@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5">
+
+    <com.google.android.material.appbar.MaterialToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        app:titleTextColor="@android:color/white"
+        app:navigationIconTint="@android:color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AZ Builder"
+                android:textSize="28sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:gravity="center"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Professional Construction Services"
+                android:textSize="16sp"
+                android:textColor="#666666"
+                android:gravity="center"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="We are a trusted construction company based in London, providing high-quality building services for residential and commercial properties. Our experienced team delivers professional results on every project."
+                android:textSize="15sp"
+                android:textColor="#444444"
+                android:lineSpacingMultiplier="1.5"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Why Choose Us?"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#333333"
+                android:layout_marginBottom="12dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- Fully insured and certified\n- Free no-obligation quotes\n- Competitive pricing\n- 10+ years experience\n- Customer satisfaction guaranteed\n- Clean and tidy work\n- Available 7 days a week"
+                android:textSize="15sp"
+                android:textColor="#555555"
+                android:lineSpacingMultiplier="1.5"
+                android:layout_marginBottom="24dp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnCallUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Call Us"
+                android:layout_marginBottom="12dp"
+                app:backgroundTint="@color/primary"
+                app:icon="@android:drawable/ic_menu_call" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEmailUs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Us"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                app:strokeColor="@color/primary"
+                android:textColor="@color/primary"
+                app:icon="@android:drawable/ic_dialog_email"
+                app:iconTint="@color/primary" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
