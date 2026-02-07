@@ -25,7 +25,18 @@ xyz
 - **Architecture:** Activity-based with ViewBinding
 - **Build System:** Gradle 8.2 with AGP 8.2.0
 - **CI/CD:** GitHub Actions (auto-build APK on push)
+- **Backend:** Firebase (Firestore, Authentication, Cloud Storage, Cloud Functions)
 
+
+## Backend (Firebase)
+
+This app uses Firebase as its backend service:
+
+- **Firebase Authentication:** User sign-up, login, and session management
+- **Cloud Firestore:** Real-time database for storing service listings, bookings, and user profiles
+- **Firebase Cloud Storage:** Image and file storage for service photos and documents
+- **Firebase Cloud Functions:** Server-side logic for booking notifications and data processing
+- **Firebase Cloud Messaging:** Push notifications for booking confirmations and updates
 ## Project Structure
 
 ```
