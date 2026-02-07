@@ -14,18 +14,7 @@ A native Android application for professional builder and construction services.
 
 ## Services Offered
 
-| Service | Description |
-|---------|-------------|
-| Plumbing | Pipe repairs, installations, leak fixing |
-| Tiling | Floor tiles, wall tiles, kitchen & bathroom |
-| Electrical | Wiring, sockets, lighting, fuse box |
-| Painting | Interior & exterior, decorating |
-| Roofing | Roof repair, guttering, chimney work |
-| Carpentry | Doors, windows, wardrobes, decking |
-| Plastering | Wall plastering, rendering, skimming |
-| Extensions | Loft conversions, garage conversions |
-| Landscaping | Garden design, paving, fencing |
-| General Repairs | Handyman services, maintenance |
+xyz
 
 ## Tech Stack
 
